@@ -9,6 +9,7 @@ echo Compiling all resources
 ./compile_resources.sh nano arduino arduino avr nano ":cpu=atmega328" "--build-properties build.extra_flags=-fno-lto"
 ./compile_resources.sh mega arduino arduino avr mega ":cpu=atmega2560" "--build-properties build.extra_flags=-fno-lto"
 ./compile_resources.sh mbot mbot arduino avr uno "" "--build-properties build.extra_flags=-fno-lto"
+./compile_resources.sh dinobot dinobot arduino avr uno "" "--build-properties build.extra_flags=-fno-lto"
 ./compile_resources.sh botnroll botnroll arduino avr uno "" "--build-properties build.extra_flags=-fno-lto"
 ./compile_resources.sh unowifirev2 unowifirev2 arduino megaavr uno2018 :mode=off "" "--build-properties build.extra_flags=-fno-lto"
 ./compile_resources.sh sensebox sensebox sensebox samd sb :power=on "" ""
