@@ -102,6 +102,7 @@ cp $SRC_DIR/build_project_bob3.sh $TGT_DIR
 cp $SRC_DIR/build_project_botnroll.sh $TGT_DIR
 cp $SRC_DIR/build_project_festobionic.sh $TGT_DIR
 cp $SRC_DIR/build_project_mbot.sh $TGT_DIR
+cp $SRC_DIR/build_project_dinobot.sh $TGT_DIR
 cp $SRC_DIR/build_project_sensebox.sh $TGT_DIR
 cp $SRC_DIR/build_project_unowifirev2.sh $TGT_DIR
 
